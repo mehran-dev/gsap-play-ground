@@ -1,0 +1,19 @@
+.box {
+  width: 120px;
+  height: 120px;
+  background: #f4f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px 4px;
+  border-radius: 6px;
+}
+
+.text {
+  font-size: 2rem;
+  font-family: Arial, sans-serif;
+  opacity: 0;
+  margin: 10px 0;
+  color: #065f7a;
+  color: teal;
+}
