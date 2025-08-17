@@ -8,6 +8,7 @@ import One from "./pages/1";
 import Two from "./pages/2";
 import Three from "./pages/3";
 import Four from "./pages/4";
+import Scroll from "./pages/scroll";
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
           <Route Component={() => <Two />} path="2" />
           <Route Component={() => <Three />} path="3" />
           <Route Component={() => <Four />} path="4" />
+          <Route Component={() => <Scroll />} path="scroll" />
         </Routes>
       </BrowserRouter>
     </>
