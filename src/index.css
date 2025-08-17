@@ -9,6 +9,19 @@
   border-radius: 6px;
 }
 
+#box1 {
+  background-color: rgb(0, 255, 42);
+  width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+#box2 {
+  background-color: rgb(0, 47, 255);
+  width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
 .text {
   font-size: 2rem;
   font-family: Arial, sans-serif;
@@ -16,4 +29,17 @@
   margin: 10px 0;
   color: #065f7a;
   color: teal;
+}
+
+.menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  gap: 1rem;
+  font-size: 0rem;
+  color: #515;
+}
+.menu div {
+  font-size: 1.2rem;
 }
